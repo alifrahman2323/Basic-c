@@ -1,0 +1,5 @@
+f = open("C:\Users\ALIF-2024\OneDrive\Desktop\vs\demo.txt", "rt")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
